@@ -52,7 +52,7 @@ const IS_CHINESE = true;
 const USE_ANIMATION_FOR_GRID = false;
 const CHINESE_INFO_MESSAGE = (yearLength, year) => {
   const yearStr = year === 'Total' ? 'all years' : ` ${year} `;
-  return `I have been running for over 1 year, below shows stats from ${yearStr}`;
+  return `I have been running for over 2 year, below shows stats from ${yearStr}`;
 };
 const ENGLISH_INFO_MESSAGE = (yearLength: number, year: string): string =>
   `Running Journey with ${yearLength} Years, the table shows year ${year} data`;
@@ -60,7 +60,7 @@ const ENGLISH_INFO_MESSAGE = (yearLength: number, year: string): string =>
 // not support English for now
 const CHINESE_LOCATION_INFO_MESSAGE_FIRST =
   'I have run in many locations across the world, I hope that I could light more on the map';
-const CHINESE_LOCATION_INFO_MESSAGE_SECOND = 'Next Marathon: 2024 Chicago Marathon, 6 majors: 1/6';
+const CHINESE_LOCATION_INFO_MESSAGE_SECOND = 'Next Marathon: 2024 China Annual Ranking Marathon, 6 majors: 1/6';
 
 const INFO_MESSAGE = IS_CHINESE ? CHINESE_INFO_MESSAGE : ENGLISH_INFO_MESSAGE;
 const FULL_MARATHON_RUN_TITLE = IS_CHINESE ? 'Full Marathon' : 'Full Marathon';
