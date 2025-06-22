@@ -50,7 +50,7 @@ const SHOW_ELEVATION_GAIN = false;
 const RICH_TITLE = false;
 
 // IF you outside China please make sure IS_CHINESE = false
-const IS_CHINESE = false;
+const IS_CHINESE = true;
 const USE_ANIMATION_FOR_GRID = false;
 const CHINESE_INFO_MESSAGE = (yearLength: number, year: string): string => {
   const yearStr = year === 'Total' ? '所有' : ` ${year} `;
@@ -64,30 +64,28 @@ const CHINESE_LOCATION_INFO_MESSAGE_FIRST =
   '我跑过了一些地方，希望随着时间推移，地图点亮的地方越来越多';
 const CHINESE_LOCATION_INFO_MESSAGE_SECOND = '不要停下来，不要停下奔跑的脚步';
 
-const INFO_MESSAGE = IS_CHINESE ? CHINESE_INFO_MESSAGE : ENGLISH_INFO_MESSAGE;
-const FULL_MARATHON_RUN_TITLE = IS_CHINESE ? '全程马拉松' : 'Full Marathon';
-const HALF_MARATHON_RUN_TITLE = IS_CHINESE ? '半程马拉松' : 'Half Marathon';
-const MORNING_RUN_TITLE = IS_CHINESE ? '清晨跑步' : 'Morning Run';
-const MIDDAY_RUN_TITLE = IS_CHINESE ? '午间跑步' : 'Midday Run';
-const AFTERNOON_RUN_TITLE = IS_CHINESE ? '午后跑步' : 'Afternoon Run';
-const EVENING_RUN_TITLE = IS_CHINESE ? '傍晚跑步' : 'Evening Run';
-const NIGHT_RUN_TITLE = IS_CHINESE ? '夜晚跑步' : 'Night Run';
-const RUN_GENERIC_TITLE = IS_CHINESE ? '跑步' : 'Run';
-const RUN_TRAIL_TITLE = IS_CHINESE ? '越野跑' : 'Trail Run';
-const RUN_TREADMILL_TITLE = IS_CHINESE ? '跑步机' : 'Treadmill Run';
-const HIKING_TITLE = IS_CHINESE ? '徒步' : 'Hiking';
-const CYCLING_TITLE = IS_CHINESE ? '骑行' : 'Cycling';
-const SKIING_TITLE = IS_CHINESE ? '滑雪' : 'Skiing';
-const WALKING_TITLE = IS_CHINESE ? '步行' : 'Walking';
-const ACTIVITY_COUNT_TITLE = IS_CHINESE ? '活动次数' : 'Activity Count';
-const MAX_DISTANCE_TITLE = IS_CHINESE ? '最远距离' : 'Max Distance';
-const MAX_SPEED_TITLE = IS_CHINESE ? '最快速度' : 'Max Speed';
-const TOTAL_TIME_TITLE = IS_CHINESE ? '总时间' : 'Total Time';
-const AVERAGE_SPEED_TITLE = IS_CHINESE ? '平均速度' : 'Average Speed';
-const TOTAL_DISTANCE_TITLE = IS_CHINESE ? '总距离' : 'Total Distance';
-const TOTAL_ELEVATION_GAIN_TITLE = IS_CHINESE
-  ? '总海拔爬升'
-  : 'Total Elevation Gain';
+const INFO_MESSAGE = ENGLISH_INFO_MESSAGE;
+const FULL_MARATHON_RUN_TITLE = 'Full Marathon';
+const HALF_MARATHON_RUN_TITLE = 'Half Marathon';
+const MORNING_RUN_TITLE = 'Morning Run';
+const MIDDAY_RUN_TITLE = 'Midday Run';
+const AFTERNOON_RUN_TITLE = 'Afternoon Run';
+const EVENING_RUN_TITLE = 'Evening Run';
+const NIGHT_RUN_TITLE = 'Night Run';
+const RUN_GENERIC_TITLE = 'Run';
+const RUN_TRAIL_TITLE = 'Trail Run';
+const RUN_TREADMILL_TITLE = 'Treadmill Run';
+const HIKING_TITLE = 'Hiking';
+const CYCLING_TITLE = 'Cycling';
+const SKIING_TITLE = 'Skiing';
+const WALKING_TITLE = 'Walking';
+const ACTIVITY_COUNT_TITLE = 'Activity Count';
+const MAX_DISTANCE_TITLE = 'Max Distance';
+const MAX_SPEED_TITLE = 'Max Speed';
+const TOTAL_TIME_TITLE = 'Total Time';
+const AVERAGE_SPEED_TITLE = 'Average Speed';
+const TOTAL_DISTANCE_TITLE = 'Total Distance';
+const TOTAL_ELEVATION_GAIN_TITLE = 'Total Elevation Gain';
 const YEARLY_TITLE = IS_CHINESE ? 'Year' : 'Yearly';
 const MONTHLY_TITLE = IS_CHINESE ? 'Month' : 'Monthly';
 const WEEKLY_TITLE = IS_CHINESE ? 'Week' : 'Weekly';
